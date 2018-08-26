@@ -1,0 +1,31 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+        "terminal.integrated.shellArgs.windows": [
+            "/k C:\\cmder\\vendor\\init.bat"
+        ],
+    "[cpp]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.renderIndentGuides": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
+    "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",
+    "clang.cxxflags": [
+        "-std=c++11",
+        "-IC:\\MinGW\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
+        "-I${workspaceRoot}\\include",
+        "-I${cwd}"
+    ],
+    "clang.cflags":[
+        "-std=c99",
+        "-IC:\\MinGW\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+        "-I${workspaceRoot}\\include",
+        "-I${cwd}"
+    ]
+}
